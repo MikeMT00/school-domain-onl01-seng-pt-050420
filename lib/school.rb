@@ -22,7 +22,7 @@ class School
     @roster.each do |grade, students|
       students.sort! #the bang sorts in place
     end
-    @roster
+
   end
 
 end
